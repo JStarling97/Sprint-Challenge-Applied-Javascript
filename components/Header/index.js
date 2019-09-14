@@ -25,11 +25,11 @@ function Header() {
     date.classList.add('date')
     temp.classList.add('temp')
 
-    //Create the Structure
     date.textContent = 'MARCH 28, 2019'
     title.textContent = 'Lambda Times'
     temp.textContent = '98°'
 
+    //Create the Structure
     header.appendChild(date)
     header.appendChild(title)
     header.appendChild(temp)
